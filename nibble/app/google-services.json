@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "396480403324",
+    "firebase_url": "https://nibble-af6dc.firebaseio.com",
+    "project_id": "nibble-af6dc",
+    "storage_bucket": "nibble-af6dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396480403324:android:62274228b93ba5adc1f6f9",
+        "android_client_info": {
+          "package_name": "com.example.nimble"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396480403324-jpfvn40hqrh0kf45inlr7n80d3341663.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nimble",
+            "certificate_hash": "16e8e11ed4a2eda6345550fcca93afd339dce292"
+          }
+        },
+        {
+          "client_id": "396480403324-ir0q8fegkjdag4g7661sbfmcgkbrnp68.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-cjWVd4I93E_3dcRH6gbSHC_EFAkaLuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396480403324-ir0q8fegkjdag4g7661sbfmcgkbrnp68.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

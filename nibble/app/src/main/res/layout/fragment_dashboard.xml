@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SearchView
+        android:id="@+id/dashboard_searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_view_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:outlineSpotShadowColor="@color/colorPrimaryDark" />
+
+
+    <Button
+        android:id="@+id/dashboard_suggestedtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suggested Hotels"
+        android:layout_marginTop="200dp"
+        android:textSize="16dp"
+        android:textAllCaps="false"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/dashboard_nearMetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hotels Near Me"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:layout_below="@+id/dashboard_suggestedtext"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
